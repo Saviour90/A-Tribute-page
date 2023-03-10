@@ -21,7 +21,7 @@ section {
 }
 
 ul{
-    max-width: 550px;
+    max-width: 1560px;
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
@@ -41,3 +41,5 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+
