@@ -1,92 +1,53 @@
-h1 {
-    font-weight: bold;
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    font-size: 4rem;
-    margin-bottom: 0;
-}
 
-/* bcg-for Image soure and responsive-{both large and Small  screen} */
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+h1{
     font-weight: bold;
 }
 
-ul {
+#container{
+
+
+ background-color: #eee;
+    height: 100vh;
+    width: 100vw;
+
+}
+#header{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+#img-div{
+    height: 600px;
+    width: 788px;
+    border: 2px black solid ;
+    background: url(/img-folder/tribute-page-main-image\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+ul{
+    display: block;
+    list-style: disc;
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
-}
-li {
-    margin-top: 16px 0;
-    margin-right: 0px;
-    margin-bottom: 16px;
-    margin-left: 0px;
+
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+ul{
+display: block;
+list-style: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+
 }
 
-#img-div {
-    background: white;
-    padding: 10px;
-    margin: 0;
-}
-
-#container {
-
-    background-color: #eee;
-    height: 100vh;
-    width: 100vw;
-}
-
-#header {
-    display: block;
-    text-align: center;
-    padding: 15px;
-}
-
-/* TNp .cgo Correction */
-/* #img-div {
-    height: 720px;
-    width: 100%;
-    padding-right: 30%;
-    padding-left: 30%;
-    border: 2px black solid;
-    background: url(/img-folder/tribute-page-main-image\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
-.body {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    text-align: center;
-    color: #333;
-    margin: 0;
-}
-
-#main {
-    margin: 30px 8px;
-    padding: 15px;
-    border-radius: 5px;
-    background: #eee;
+li{
+display: list-item;
+text-align: -webkit-match-parent;
 }
