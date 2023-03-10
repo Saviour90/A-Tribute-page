@@ -17,8 +17,10 @@ h1{
     padding: 15px;
 }
 #img-div{
-    height: 600px;
-    width: 788px;
+    height: 720px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
     border: 2px black solid ;
     background: url(/img-folder/tribute-page-main-image\ \(1\).jpg) ;
     background-repeat: no-repeat;
