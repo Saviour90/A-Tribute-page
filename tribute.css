@@ -1,0 +1,27 @@
+
+h1{
+    font-weight: bold;
+}
+
+#container{
+
+
+ background-color: #eee;
+    height: 100vh;
+    width: 100vw;
+
+}
+#header{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+#img-div{
+    height: 600px;
+    width: 788px;
+    border: 2px black solid ;
+    background: url(/img-folder/tribute-page-main-image\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
